@@ -1,0 +1,31 @@
+/* SECTION TOP_BAR */
+
+.top-bar {
+    padding: 1rem 0;
+    background-color: deeppink;
+}
+
+/* SOCIAL LIST */
+.top-bar__social-list {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+    list-style-type: none;
+}
+
+.top-bar__social-list > li {
+    margin-right: 1rem;
+}
+
+.top-bar__social-list > li > a {
+    color: white;
+}
+
+/* LINKS */
+.top-bar__links > a,
+.top-bar__links > span {
+    color: white;
+}
